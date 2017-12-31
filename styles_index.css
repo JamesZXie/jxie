@@ -1,0 +1,360 @@
+.menu{
+	height: 30px;
+	width: 7.5%;
+	margin-top: 1%;
+	margin-bottom: 50px;
+	margin-right: 80%;
+	font-family: 'Noto Sans', sans-serif;
+	position: fixed;
+	top: 0;
+	text-align: left;
+}
+		.menu-JX{
+			display:block;
+			width: 100%;
+			hover: pointer;
+			margin-left: 10%;
+		}
+		.menu-about{
+			display:block;
+			width: 100%;
+			hover: pointer;
+			margin-left: 10%;
+			margin-top: 300%;
+		}
+		.menu-contact{
+			display:block;
+			width: 100%;
+			hover: pointer;
+			margin-left: 10%;
+			margin-top: 10%;
+		}
+
+.header{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 48px;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: auto;
+}
+
+/*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
+
+.projects-SamPoll{
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin-top: 10%;
+	margin-left: 9.5%;
+	margin-right: .5%;
+	background-color: whitesmoke;
+	border-radius: 30px 10px 0px 10px;
+}
+.projects-SamPoll:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+		.SamPoll-text1{
+			display: inline-block;
+			font-family: 'Noto Sans', sans-serif;
+			font-size: 20px;
+			max-width: 20%;
+			margin-left: -5%;
+			color: whitesmoke;
+			vertical-align: middle;
+		}
+				.SamPoll-text1, .SamPoll-text2 {
+					transition: .3s;
+				}
+				.projects-SamPoll:hover .SamPoll-text2{
+					color: black;
+				}
+		.SamPoll-images1{
+			display: inline-block;
+			max-width: 50%;
+			max-height: 100%;
+			margin-left: 25%;
+			vertical-align: middle;
+		}
+				.SamPoll-images1, .SamPoll-images2 {
+					transition: .3s;
+					width: 100%;
+					vertical-align: middle;
+				}
+				.projects-SamPoll:hover .SamPoll-images2{
+					margin-left: -30%;
+					width: 100%;
+				}
+						#newsfeed{
+							display:inline-block;
+							vertical-align: top;
+							-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+		           			filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+							max-width: 48%;
+							max-height: 100%;
+							border-radius: 10px;
+						}
+						#polling{
+							display:inline-block;
+							vertical-align: top;
+							max-width: 48%;
+							max-height: 100%;
+							border-radius: 10px;
+							-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+		            		filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+						}
+
+/*~~~~~~~~~~~~~~~~DISASTER RELIEF~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~DISASTER RELIEF~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~DISASTER RELIEF~~~~~~~~~~~~~~~~~*/
+
+.projects-Disaster-Relief{
+	vertical-align: top;
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin-top:10%;
+	margin-left: .5%;
+	margin-right: auto;
+	margin-bottom: 1%;
+	background-color: whitesmoke;
+	border-radius: 10px 30px 10px 0px;
+}
+.projects-Disaster-Relief:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+		.DisasterRelief-text1{
+			display: inline-block;
+			font-family: 'Noto Sans', sans-serif;
+			font-size: 20px;
+			max-width: 30%;
+			margin-left: -10%;
+			color: whitesmoke;
+			vertical-align: middle;
+		}
+				.DisasterRelief-text1, .DisasterRelief-text2 {
+					transition: .3s;
+				}
+				.projects-Disaster-Relief:hover .DisasterRelief-text2{
+					color: black;
+				}
+		.DisasterRelief-images1{
+			display: inline-block;
+			max-width: 50%;
+			max-height: 90%;
+			margin-left: 20%;
+			vertical-align: middle;
+		}
+				.DisasterRelief-images1, .DisasterRelief-images2 {
+					transition: .3s;
+				}
+				.projects-Disaster-Relief:hover .DisasterRelief-images2{
+					margin-left: -30%;
+				}
+						#mapicons{
+							display:inline-block;
+							vertical-align: top;
+							object-fit: contain;
+							height: 100%;
+							border-radius: 10px;
+							-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+            				filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+						}
+		
+/*~~~~~~~~~~~~~~~~HOG WASTE MANAGEMENT~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~HOG WASTE MANAGEMENT~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~HOG WASTE MANAGEMENT~~~~~~~~~~~~~~~~~*/
+
+.projects-HogWasteManagement{
+	vertical-align: top;
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin-left: 9.5%;
+	margin-right: .5%;
+	margin-bottom: 1%;
+	background-color: whitesmoke;
+	border-radius: 10px 0px 0px 10px;
+}
+.projects-HogWasteManagement:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+		.HogWasteManagement-text1{
+			display: inline-block;
+			font-family: 'Noto Sans', sans-serif;
+			font-size: 20px;
+			max-width: 20%;
+			margin-left: -5%;
+			color: whitesmoke;
+			vertical-align: middle;
+		}
+				.HogWasteManagement-text1, .HogWasteManagement-text2 {
+					transition: .3s;
+				}
+				.projects-HogWasteManagement:hover .HogWasteManagement-text2{
+					color: black;
+				}
+		.HogWasteManagement-images1{
+			display: inline-block;
+			max-width: 50%;
+			max-height: 90%;
+			margin-left: 35%;
+			vertical-align: middle;
+		}
+				.HogWasteManagement-images1, .HogWasteManagement-images2 {
+					transition: .3s;
+				}
+				.projects-HogWasteManagement:hover .HogWasteManagement-images2{
+					margin-left: -50%;
+				}
+						#systemsketch{
+							display:inline-block;
+							vertical-align: top;
+							object-fit: contain;
+							height: 100%;
+							border-radius: 10px;
+							-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+            				filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+						}
+
+/*~~~~~~~~~~~~~~~~X HOOK~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~X HOOK~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~X HOOK~~~~~~~~~~~~~~~~~*/
+
+.projects-XHook{
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin-left: .5%;
+	margin-right: auto;
+	background-color: whitesmoke;
+	border-radius: 0px 10px 10px 0px;
+}
+.projects-XHook:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+		.XHook-text1{
+			display: inline-block;
+			font-family: 'Noto Sans', sans-serif;
+			font-size: 20px;
+			max-width: 20%;
+
+			color: whitesmoke;
+			vertical-align: middle;
+		}
+				.XHook-text1, .XHook-text2 {
+					transition: .3s;
+				}
+				.projects-XHook:hover .XHook-text2{
+					color: black;
+				}
+		.XHook-images1{
+			display: inline-block;
+			max-width: 50%;
+			max-height: 90%;
+			margin-left: 40%;
+			vertical-align: middle;
+		}
+				.XHook-images1, .XHook-images2 {
+					transition: .3s;
+				}
+				.projects-XHook:hover .XHook-images2{
+					margin-left: -70%;
+				}
+						#topsketch{
+							display:inline-block;
+							vertical-align: top;
+							object-fit: contain;
+							height: 100%;
+							border-radius: 10px;
+							-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+            				filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+						}
+
+/*~~~~~~~~~~~~~~~~FASHION~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~FASHION~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~FASHION~~~~~~~~~~~~~~~~~*/
+
+.projects-Fashion{
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin-left: 9.5%;
+	margin-right: auto;
+	background-color: whitesmoke;
+	border-radius: 10px 0px 10px 30px;
+	vertical-align: top;
+}
+.projects-Fashion:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+		.Fashion-text1{
+			display: inline-block;
+			font-family: 'Noto Sans', sans-serif;
+			font-size: 20px;
+			max-width: 30%;
+			margin-left: -5%;
+			color: whitesmoke;
+			vertical-align: middle;
+		}
+				.Fashion-text1, .Fashion-text2 {
+					transition: .3s;
+				}
+				.projects-Fashion:hover .Fashion-text2{
+					color: black;
+				}
+		.Fashion-images1{
+			display: inline-block;
+			max-width: 50%;
+			max-height: 90%;
+			margin-left: 15%;
+			vertical-align: middle;
+			
+		}
+				.Fashion-images1, .Fashion-images2 {
+					transition: .3s;
+				}
+				.projects-Fashion:hover .Fashion-images2{
+					margin-left: -35%;
+				}
+						#RFS{
+							display:inline-block;
+							vertical-align: top;
+							object-fit: contain;
+							height: 100%;
+							border-radius: 10px;
+							-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+		            		filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+						}
+
+.JX-summary{
+	display: inline-block;
+	width: 40%;
+	height: 40%;
+	margin-left: 1%;
+	margin-bottom: 10%;
+	margin-right: auto;
+}
+		#jx-img{
+			width:70%;
+			display:inline-block;
+			margin-left: 10%;
+			margin-top: 9%;
+		}
+

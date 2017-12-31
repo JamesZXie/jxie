@@ -1,0 +1,204 @@
+.menu{
+	height: 30px;
+	width: 7.5%;
+	margin-top: 1%;
+	margin-bottom: 50px;
+	margin-right: 80%;
+	font-family: 'Noto Sans', sans-serif;
+	position: fixed;
+	top: 0;
+	text-align: left;
+}
+		.menu-JX{
+			display:block;
+			width: 100%;
+			hover: pointer;
+			margin-left: 10%;
+		}
+		.menu-about{
+			display:block;
+			width: 100%;
+			hover: pointer;
+			margin-left: 10%;
+			margin-top: 300%;
+		}
+		.menu-contact{
+			display:block;
+			width: 100%;
+			hover: pointer;
+			margin-left: 10%;
+			margin-top: 10%;
+		}
+
+.header{
+	display: inline-block;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: auto;
+}
+
+.intro-summary{
+	display: inline-block;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	margin-left: 1%;
+	margin-right: auto;
+}
+
+.description{
+	font-family: 'Noto Sans', sans-serif;
+	background-color: white;
+	max-width: 80%;
+	padding: 5%;
+	margin: auto;
+	margin-bottom: 5%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+	.description p{
+		font-size: 15px;
+		margin-right: 5%;
+		margin-left: 2.5%;
+		padding-left: 2.5%;
+	}
+	.description h1{
+		margin-right: 10%;
+	}
+
+/*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
+.project-container{
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	background-color: whitesmoke;
+	border-radius: 30px;
+}
+.SamPoll-image-container{
+	width:100%;
+	height: 70%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	vertical-align: top;
+	object-fit: contain;
+	text-align: center;
+}
+		#newsfeed{
+			display:inline-block;
+			vertical-align: top;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			object-fit: contain;
+			max-height: 100%;
+			max-width:32%;
+			border-radius: 10px;
+		}
+		#polling{
+			display:inline-block;
+			vertical-align: top;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			object-fit: contain;
+			max-height: 100%;
+			max-width: 32%;
+			border-radius: 10px;
+		}
+		#profile{
+			display:inline-block;
+			vertical-align: top;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			object-fit: contain;
+			max-height: 100%;
+			max-width:32%;
+			border-radius: 10px;
+		}
+
+/*~~~~~~~~~~~~~~~~~~DISASTER RELIEF~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~DISASTER RELIEF~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~DISASTER RELIEF~~~~~~~~~~~~~~~~~~~*/
+
+/*Project Container*/
+.DisasterRelief-image-container{
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	vertical-align: top;
+	object-fit: contain;
+	text-align: center;
+}
+		#map{
+			display:inline-block;
+			vertical-align: top;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			object-fit: contain;
+			max-width: 90%;
+			border-radius: 10px;
+		}
+
+/*~~~~~~~~~~~~~~~~~~HOG WASTE MANAGEMENT~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~HOG WASTE MANAGEMENT~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~HOG WASTE MANAGEMENT~~~~~~~~~~~~~~~~~~~*/
+
+.HogWasteManagement-image-container{
+	width:100%;
+	height: 70%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	vertical-align: top;
+	object-fit: contain;
+	text-align: center;
+}
+		.HogWasteManagement-image-platform{
+			display: inline-block;
+			height: 100%;
+			width: 90%;
+			background-color: white;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 10px;
+		}
+		.HogWasteManagement-image-platform:before {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			height: 100%;
+		}
+				#SystemSketch{
+					display:inline-block;
+					vertical-align: top;
+					max-width: 30%;
+					max-height: 90%;
+					border-radius: 10px;
+					-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+           			filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+           			vertical-align: middle;
+				}
+				#BirdsEye{
+					display:inline-block;
+					vertical-align: top;
+					max-width: 50%;
+					max-height: 90%;
+					margin-right: 5%;
+					border-radius: 10px;
+					-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+           			filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+           			vertical-align: middle;
+				}
+
+/*~~~~~~~~~~~~~~~~~~X HOOK~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~X HOOK~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~X HOOK~~~~~~~~~~~~~~~~~~~*/
+
+#XHook{
+	display:inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	object-fit: contain;
+	max-width: 90%;
+	border-radius: 10px;
+	margin: 5%;
+}
