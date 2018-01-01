@@ -87,12 +87,14 @@
 			margin-left: -5%;
 			color: #E0E0E0;
 			vertical-align: middle;
+			visibility: hidden;
 		}
 				.SamPoll-text1, .SamPoll-text2 {
 					transition: .3s;
 				}
 				.projects-SamPoll:hover .SamPoll-text2{
 					color: black;
+					visibility: visible;
 				}
 		.SamPoll-images1{
 			display: inline-block;
@@ -159,12 +161,14 @@
 			margin-left: -10%;
 			color: #E0E0E0;
 			vertical-align: middle;
+			visibility: hidden;
 		}
 				.DisasterRelief-text1, .DisasterRelief-text2 {
 					transition: .3s;
 				}
 				.projects-Disaster-Relief:hover .DisasterRelief-text2{
 					color: black;
+					visibility: visible;
 				}
 		.DisasterRelief-images1{
 			display: inline-block;
@@ -218,12 +222,14 @@
 			margin-left: -5%;
 			color: #EDEDED;
 			vertical-align: middle;
+			visibility: hidden;
 		}
 				.HogWasteManagement-text1, .HogWasteManagement-text2 {
 					transition: .3s;
 				}
 				.projects-HogWasteManagement:hover .HogWasteManagement-text2{
 					color: black;
+					visibility: visible;
 				}
 		.HogWasteManagement-images1{
 			display: inline-block;
@@ -273,12 +279,14 @@
 			max-width: 20%;
 			color: #EDEDED;
 			vertical-align: middle;
+			visibility: hidden;
 		}
 				.XHook-text1, .XHook-text2 {
 					transition: .3s;
 				}
 				.projects-XHook:hover .XHook-text2{
 					color: black;
+					visibility: visible;
 				}
 		.XHook-images1{
 			display: inline-block;
