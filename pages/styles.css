@@ -248,3 +248,24 @@
 			-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
 			filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
 		}
+
+/*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
+#Hey{
+	display:inline-block;
+	margin-top: 10%;
+	max-width: 60%;
+	margin-left: 10%;
+	-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
+	filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
+}
+.about-text{
+	display: block;
+	margin-top: -9%;
+	font-family: 'Noto Sans', sans-serif;
+	max-width: 80%;
+	padding: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
