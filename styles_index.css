@@ -49,7 +49,7 @@
 	margin-top: 10%;
 	margin-left: 9.5%;
 	margin-right: .5%;
-	background-color: whitesmoke;
+	background-color: #B0B0B0 ;
 	border-radius: 30px 10px 0px 10px;
 }
 .projects-SamPoll:before {
@@ -64,7 +64,7 @@
 			font-size: 20px;
 			max-width: 20%;
 			margin-left: -5%;
-			color: whitesmoke;
+			color: #B0B0B0;
 			vertical-align: middle;
 		}
 				.SamPoll-text1, .SamPoll-text2 {
@@ -121,7 +121,7 @@
 	margin-left: .5%;
 	margin-right: auto;
 	margin-bottom: 1%;
-	background-color: whitesmoke;
+	background-color: #B0B0B0 ;
 	border-radius: 10px 30px 10px 0px;
 }
 .projects-Disaster-Relief:before {
@@ -136,7 +136,7 @@
 			font-size: 20px;
 			max-width: 30%;
 			margin-left: -10%;
-			color: whitesmoke;
+			color: #B0B0B0;
 			vertical-align: middle;
 		}
 				.DisasterRelief-text1, .DisasterRelief-text2 {
@@ -180,7 +180,7 @@
 	margin-left: 9.5%;
 	margin-right: .5%;
 	margin-bottom: 1%;
-	background-color: whitesmoke;
+	background-color: #D0D0D0 ;
 	border-radius: 10px 0px 0px 10px;
 }
 .projects-HogWasteManagement:before {
@@ -195,7 +195,7 @@
 			font-size: 20px;
 			max-width: 20%;
 			margin-left: -5%;
-			color: whitesmoke;
+			color: #D0D0D0;
 			vertical-align: middle;
 		}
 				.HogWasteManagement-text1, .HogWasteManagement-text2 {
@@ -237,7 +237,7 @@
 	height: 40%;
 	margin-left: .5%;
 	margin-right: auto;
-	background-color: whitesmoke;
+	background-color: #D0D0D0 ;
 	border-radius: 0px 10px 10px 0px;
 }
 .projects-XHook:before {
@@ -251,8 +251,7 @@
 			font-family: 'Noto Sans', sans-serif;
 			font-size: 20px;
 			max-width: 20%;
-
-			color: whitesmoke;
+			color: #D0D0D0;
 			vertical-align: middle;
 		}
 				.XHook-text1, .XHook-text2 {
