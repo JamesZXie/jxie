@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 2.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        fill: #4f4f4f;
+      }
+
+      .cls-3 {
+        fill: #878787;
+      }
+    </style>
+  </defs>
+  <title>dots-JX</title>
+  <circle class="cls-1" cx="1.13" cy="1.13" r="1.13"/>
+  <circle class="cls-2" cx="11.19" cy="1.13" r="1.13"/>
+  <circle class="cls-3" cx="15.88" cy="1.13" r="1.13"/>
+</svg>

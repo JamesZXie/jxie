@@ -1,6 +1,6 @@
 .menu{
 	height: 30px;
-	width: 7.5%;
+	width: 5%;
 	margin-top: 1%;
 	margin-bottom: 50px;
 	margin-right: 80%;
@@ -9,22 +9,43 @@
 	top: 0;
 	text-align: left;
 }
-		.menu-JX{
-			display:block;
-			width: 100%;
-			hover: pointer;
-			margin-left: 10%;
+		.JX-container{
 		}
-		.menu-about{
-			display:block;
-			width: 100%;
-			hover: pointer;
-			margin-left: 10%;
-			margin-top: 300%;
+				.menu-JX{
+					display:block;
+					width: 100%;
+					hover: pointer;
+					margin-left: 10%;
+				}
+				.JX-animation{
+					display:inline-block;
+				}
+						.JX-container, .JX-animation{
+							transition: .5s;
+						}
+						.JX-container:hover .JX-animation{
+						    margin-bottom: 30%;
+						}
+		.A-container{
 		}
+				.menu-about{
+					display:block;
+					width: 80%;
+					hover: pointer;
+					margin-left: 10%;
+				}
+				.A-animation{
+					display:inline-block;
+				}
+						.A-container, .A-animation{
+							transition: .5s;
+						}
+						.A-container:hover .A-animation{
+						    margin-bottom: 30%;
+						}
 		.menu-contact{
 			display:block;
-			width: 100%;
+			width: 80%;
 			hover: pointer;
 			margin-left: 10%;
 			margin-top: 10%;
@@ -91,7 +112,7 @@
 	display: inline-block;
 	width: 80%;
 	margin-left: 10%;
-	background: linear-gradient(#B0B0B0, #D0D0D0);
+	background: linear-gradient(#E0E0E0, #E0E0E0, white);
 	border-radius: 30px;
 }
 .SamPoll-image-container{
@@ -162,7 +183,7 @@
 	display: inline-block;
 	width: 80%;
 	margin-left: 10%;
-	background: linear-gradient(#D0D0D0, whitesmoke);
+	background: linear-gradient(#EDEDED, #EDEDED, white);
 	border-radius: 30px;
 }
 .HogWasteManagement-image-container{
@@ -231,7 +252,7 @@
 	display: inline-block;
 	width: 80%;
 	margin-left: 10%;
-	background: linear-gradient(whitesmoke, white);
+	background: linear-gradient(whitesmoke, whitesmoke, white);
 	border-radius: 30px;
 }
 .RFS-container{

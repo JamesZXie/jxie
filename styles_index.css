@@ -1,6 +1,6 @@
 .menu{
 	height: 30px;
-	width: 7.5%;
+	width: 5%;
 	margin-top: 1%;
 	margin-bottom: 50px;
 	margin-right: 80%;
@@ -9,22 +9,43 @@
 	top: 0;
 	text-align: left;
 }
-		.menu-JX{
-			display:block;
-			width: 100%;
-			hover: pointer;
-			margin-left: 10%;
+		.JX-container{
 		}
-		.menu-about{
-			display:block;
-			width: 100%;
-			hover: pointer;
-			margin-left: 10%;
-			margin-top: 300%;
+				.menu-JX{
+					display:block;
+					width: 100%;
+					hover: pointer;
+					margin-left: 10%;
+				}
+				.JX-animation{
+					display:inline-block;
+				}
+						.JX-container, .JX-animation{
+							transition: .5s;
+						}
+						.JX-container:hover .JX-animation{
+						    margin-bottom: 30%;
+						}
+		.A-container{
 		}
+				.menu-about{
+					display:block;
+					width: 80%;
+					hover: pointer;
+					margin-left: 10%;
+				}
+				.A-animation{
+					display:inline-block;
+				}
+						.A-container, .A-animation{
+							transition: .5s;
+						}
+						.A-container:hover .A-animation{
+						    margin-bottom: 30%;
+						}
 		.menu-contact{
 			display:block;
-			width: 100%;
+			width: 80%;
 			hover: pointer;
 			margin-left: 10%;
 			margin-top: 10%;
@@ -49,8 +70,8 @@
 	margin-top: 10%;
 	margin-left: 9.5%;
 	margin-right: .5%;
-	background-color: #B0B0B0 ;
-	border-radius: 30px 10px 0px 10px;
+	background-color: #E0E0E0 ;
+	border-radius: 10px 100px 10px 100px;
 }
 .projects-SamPoll:before {
 	content: "";
@@ -64,7 +85,7 @@
 			font-size: 20px;
 			max-width: 20%;
 			margin-left: -5%;
-			color: #B0B0B0;
+			color: #E0E0E0;
 			vertical-align: middle;
 		}
 				.SamPoll-text1, .SamPoll-text2 {
@@ -121,8 +142,8 @@
 	margin-left: .5%;
 	margin-right: auto;
 	margin-bottom: 1%;
-	background-color: #B0B0B0 ;
-	border-radius: 10px 30px 10px 0px;
+	background-color: #E0E0E0;
+	border-radius: 100px 10px 100px 10px;
 }
 .projects-Disaster-Relief:before {
 	content: "";
@@ -136,7 +157,7 @@
 			font-size: 20px;
 			max-width: 30%;
 			margin-left: -10%;
-			color: #B0B0B0;
+			color: #E0E0E0;
 			vertical-align: middle;
 		}
 				.DisasterRelief-text1, .DisasterRelief-text2 {
@@ -180,8 +201,8 @@
 	margin-left: 9.5%;
 	margin-right: .5%;
 	margin-bottom: 1%;
-	background-color: #D0D0D0 ;
-	border-radius: 10px 0px 0px 10px;
+	background-color: #EDEDED ;
+	border-radius: 10px 100px 0px 100px;
 }
 .projects-HogWasteManagement:before {
 	content: "";
@@ -195,7 +216,7 @@
 			font-size: 20px;
 			max-width: 20%;
 			margin-left: -5%;
-			color: #D0D0D0;
+			color: #EDEDED;
 			vertical-align: middle;
 		}
 				.HogWasteManagement-text1, .HogWasteManagement-text2 {
@@ -236,8 +257,8 @@
 	height: 40%;
 	margin-left: .5%;
 	margin-right: auto;
-	background-color: #D0D0D0 ;
-	border-radius: 0px 10px 10px 0px;
+	background-color: #EDEDED ;
+	border-radius: 100px 10px 100px 10px;
 }
 .projects-XHook:before {
 	content: "";
@@ -250,7 +271,7 @@
 			font-family: 'Noto Sans', sans-serif;
 			font-size: 20px;
 			max-width: 20%;
-			color: #D0D0D0;
+			color: #EDEDED;
 			vertical-align: middle;
 		}
 				.XHook-text1, .XHook-text2 {
@@ -292,8 +313,8 @@
 	height: 40%;
 	margin-left: 9.5%;
 	margin-right: auto;
-	background-color: whitesmoke;
-	border-radius: 10px 0px 10px 30px;
+	background: linear-gradient(whitesmoke, white);
+	border-radius: 100px 0px 100px 10px;
 	vertical-align: top;
 }
 .projects-Fashion:before {
@@ -310,12 +331,14 @@
 			margin-left: -5%;
 			color: whitesmoke;
 			vertical-align: middle;
+			visibility: hidden;
 		}
 				.Fashion-text1, .Fashion-text2 {
 					transition: .3s;
 				}
 				.projects-Fashion:hover .Fashion-text2{
 					color: black;
+					visibility: visible;
 				}
 		.Fashion-images1{
 			display: inline-block;
