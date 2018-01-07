@@ -61,12 +61,14 @@
 	margin-right: auto;
 }
 
-.intro-summary{
-	display: inline-block;
+.subheader{
+	display: block;
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 14px;
-	margin-left: 1%;
+	font-size: 18px;
+	margin-left: 10%;
 	margin-right: auto;
+	margin-bottom: 1%;
+	font-style: italic;
 }
 
 .description{
