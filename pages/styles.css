@@ -92,21 +92,6 @@
 		margin-right: 10%;
 	}
 
-.pad{
-	background-color: white;
-	width: 40%;
-	height: 40%;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	text-align: center;
-}
-		.pad:before {
-			content: "";
-			display: inline-block;
-			vertical-align: middle;
-			height: 100%;
-		}
-
 .clean-link{
 	text-decoration: none;
 }
@@ -278,6 +263,44 @@
 			-webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.19) ); 
 			filter: drop-shadow( 5px 5px 5px 5px rgba(0, 0, 0, 0.19) );
 		}
+.image-pad{
+	display: inline-block;
+	background-color: white;
+	width: 40%;
+	height: 50%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	margin: 5%;
+}
+		.image-pad:before {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			height: 100%;
+		}
+.text-pad{
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	margin-top: 5%;
+	width: 45%;
+	height: 50%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+}
+		.text-pad h2{
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 5%;
+		}
+		.text-pad p{
+			margin-left: 5%;
+			margin-right: 5%;
+		}
 
 /*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
@@ -300,9 +323,9 @@
 	margin-bottom: 5%;
 }
 
-/*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
-/*~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~CONTACT~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~CONTACT~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~CONTACT~~~~~~~~~~~~~~~~~~~*/
 
 .contact-text{
 	display: block;
@@ -318,3 +341,5 @@
 		.contact-text h3{
 			margin-bottom: 3%;
 		}
+
+
