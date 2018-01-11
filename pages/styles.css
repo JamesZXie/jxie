@@ -98,6 +98,50 @@
 		.clean-link:visited {
 			text-decoration: none;
 		}
+.roles{
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	margin-left: 10%;
+	width: 30%;
+	min-height: 30%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+}
+		.roles h2{
+			margin: 1em;
+		}
+		.roles p{
+			margin: 1.5em;
+			margin-top: 0px;
+			border-left: solid;
+			padding-left: 1.5em;
+		}
+.roles-desc{
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	margin-left: 4%;
+	width: 46%;
+	min-height: 30%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+}
+		.roles-desc h2{
+			margin: 1em;
+		}
+		.roles-desc p{
+			margin: 1.5em;
+			margin-top: 0px;
+			border-left: solid;
+			padding-left: 1.5em;
+		}
 
 /*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~SAMPOLL~~~~~~~~~~~~~~~~~*/
