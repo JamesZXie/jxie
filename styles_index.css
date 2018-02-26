@@ -68,7 +68,7 @@
 	margin-left: 1%;
 	margin-right: auto;
 	margin-bottom: 1%;
-	background-color: #E0E0E0;
+	background-color: #D3D3D3;
 	border-radius: 100px 10px 100px 10px;
 }
 .projects-Airbnb:before {
@@ -83,7 +83,7 @@
 			font-size: 20px;
 			max-width: 30%;
 			margin-left: -10%;
-			color: #E0E0E0;
+			color: #D3D3D3;
 			vertical-align: middle;
 			visibility: hidden;
 		}
