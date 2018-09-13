@@ -1,120 +1,69 @@
 <html>
-	<head>
-		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-		<link rel="icon" href="./favicon.ico" type="image/x-icon">
-	</head>
-	<header>
-		<title>James Xie</title>
-		<link rel="stylesheet" type="text/css" href="./styles_index.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/>
-	</header>
+  <head>
 
-	<body>
-		<div class="menu">
-				<a href="./index.html">
-					<div class="JX-container">
-						<div class="JX-animation">
-							<img class="menu-JX" src="./images/Menu/Jx.svg">					
-						</div>
-					</div>	
-				</a>
-				<a href="./pages/About.html">
-					<div class="A-container">
-						<div class="A-animation">
-							<img class="menu-about" src="./images/Menu/icon-A.svg">	
-						</div>
-					</div>
-					<!-- <div class="A-animation">
-						<img class="menu-about" src="./images/Menu/icon-A-crown.svg" style="margin-top: -100%;">
-					</div>	 -->
-				</a>
-				<a href="./pages/Contact.html">
-					<img class="menu-contact" src="./images/Menu/icon-C.svg">	
-				</a>
-		</div>
+  </head>
+  <header>
+    <title>JXME</title>
+    <link rel="stylesheet" type="text/css" href="./styles/index.css"/>
+  </header>
+  <body>
+    <script src="./index.js"></script>
 
-		<div class = "JX-summary">
-				<img id="jx-img" src="./images/Menu/JX_DesignAndCode.svg">
-		</div>
-		<a href="./pages/Airbnb.html"><div class = "projects-Airbnb">
-				<div class="Airbnb-images1">
-					<div class="Airbnb-images2">
-						<img id = "mapicons" src="./images/Airbnb/GettingStarted.svg">
-					</div>
-				</div>
-				<div class="Airbnb-text1">
-					<div class="Airbnb-text2">
-						Airbnb Redesign
-					</div>
-				</div>
-			</div></a>
+    <div class="container1">
+      <div class="header1">james xie</div>
+      <div class="subtext1">
+        Designer | Developer | Dancer
+      </div>
+      <div class="recent">
+        <a target="_blank" href="https://medium.com/@jamesxie_93826/the-business-of-good-design-18d10e141e08" class="recent-link">
+        --> Latest case study: "The Business of Good Design" <--
+        </a>
+      </div>
+    </div>
 
-		<a href="./pages/SamPoll.html"><div class = "projects-SamPoll">
-			<div class="SamPoll-images1">
-				<div class="SamPoll-images2">
-					<img id = "newsfeed" src="./images/SamPoll/NewsFeed.svg">
-					<img id = "polling" src="./images/SamPoll/Polling.svg">
-				</div>
-			</div>
-			<div class="SamPoll-text1">
-				<div class="SamPoll-text2">
-					SamPoll
-				</div>
-			</div>
-		</div></a>
-		
-		<a href="./pages/XHook.html"><div class = "projects-XHook">
-			<div class="XHook-images1">
-				<div class="XHook-images2">
-					<img id = "topsketch" src="./images/XHook/TopSketch.svg">
-				</div>
-			</div>
-			<div class="XHook-text1">
-				<div class="XHook-text2">
-					X-Hook
-				</div>
-			</div>
-		</div></a>
+    <div class="container2">
+      <div class="projects-container">
+        <a target="_blank" href="https://medium.com/@jamesxie_93826/the-business-of-good-design-18d10e141e08" class="project-link">
+          <div class="project" id="proj1" onmouseover="togglePreviewOn(this)" onmouseout="togglePreviewOff(this)">
+            <div class="subtext2">IBM Cloud Mobile</div>
+            <div class="subtext3">Crowdsourcing technical support - saving $1k per resolution</div>
+          </div>
+        </a>
+        <a target="_blank" href="https://medium.com/@jamesxie_93826/trendsetters-ead33211569a" class="project-link">
+          <div class="project" id="proj2" onmouseover="togglePreviewOn(this)" onmouseout="togglePreviewOff(this)">
+            <div class="subtext2">Refresh Merchandise</div>
+            <div class="subtext3">Combating the death of Facebook marketing with branding</div>
+          </div>
+        </a>
+        <a target="_blank" href="https://medium.com/@jamesxie_93826/a-simple-poll-21039da62297" class="project-link">
+          <div class="project" id="proj3" onmouseover="togglePreviewOn(this)" onmouseout="togglePreviewOff(this)">
+            <div class="subtext2">SamPoll</div>
+            <div class="subtext3">Bringing local news, culture, and politics to the people</div>
+          </div>
+        </a>
+        <a target="_blank" href="https://medium.com/@jamesxie_93826/factory-farming-stinks-ea3177038093" class="project-link">
+          <div class="project" id="proj4" onmouseover="togglePreviewOn(this)" onmouseout="togglePreviewOff(this)">
+            <div class="subtext2">Hog Waste Management System</div>
+            <div class="subtext3">Reducing the carbon footprint of factory farming</div>
+          </div>
+        </a>
+        <a target="_blank" href="https://medium.com/@jamesxie_93826/accessible-crocheting-5897a7f43095" class="project-link">
+          <div class="project" id="proj5" onmouseover="togglePreviewOn(this)" onmouseout="togglePreviewOff(this)">
+            <div class="subtext2">XHook</div>
+            <div class="subtext3">Helping patients with paralysis crochet</div>
+          </div>
+        </a>
+      </div>
 
-		<a href="./pages/HogWasteManagement.html"><div class = "projects-HogWasteManagement">
-			<div class="HogWasteManagement-images1">
-				<div class="HogWasteManagement-images2">
-					<img id = "systemsketch" src="./images/HogWasteManagement/SystemSketch.svg">
-				</div>
-			</div>
-			<div class="HogWasteManagement-text1">
-				<div class="HogWasteManagement-text2">
-					Waste Management
-				</div>
-			</div>
-		</div></a>
+      <div class="preview-container">
+        <img src="assets/previews/preview_default.svg" class="preview-default" id="p-default"></img>
+        <img src="assets/previews/preview_proj1.svg" class="preview-proj" id="p-proj1"></img>
+        <img src="assets/previews/preview_proj2.svg" class="preview-proj" id="p-proj2"></img>
+        <img src="assets/previews/preview_proj3.svg" class="preview-proj" id="p-proj3"></img>
+        <img src="assets/previews/preview_proj4.svg" class="preview-proj" id="p-proj4"></img>
+        <img src="assets/previews/preview_proj5.svg" class="preview-proj" id="p-proj5"></img>
+      </div>
+    </div>
+  </body>
 
-		<a href="./pages/DisasterRelief.html"><div class = "projects-Disaster-Relief">
-			<div class="DisasterRelief-images1">
-				<div class="DisasterRelief-images2">
-					<img id = "mapicons" src="./images/DisasterRelief/cover.svg">
-				</div>
-			</div>
-			<div class="DisasterRelief-text1">
-				<div class="DisasterRelief-text2">
-					Disaster Relief
-				</div>
-			</div>
-		</div></a>
-
-		<a href="./pages/Fashion.html"><div class = "projects-Fashion">
-			<div class="Fashion-images1">
-				<div class="Fashion-images2">
-					<img id = "RFS" src="./images/Fashion/RFS.svg">
-				</div>
-			</div>
-			<div class="Fashion-text1">
-				<div class="Fashion-text2">
-					Assorted Merch
-				</div>
-			</div>
-		</div></a>
-
-		
-   </body>
 </html>
