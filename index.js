@@ -1,6 +1,3 @@
-
-document.getElementById('p-default').draggable = false;
-
 function togglePreviewOn(x) {
 
    var id = x.id;
