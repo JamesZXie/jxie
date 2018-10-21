@@ -2,7 +2,6 @@ let currProj = 0;
 let oldProj=0;
 
 function togglePreviewOn(x) {
-  console.log(x)
   var id = x.id;
   document.getElementById("p-default").style.display="none";
 
