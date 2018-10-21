@@ -78,6 +78,11 @@ function checkKey(e) {
     url = document.getElementById("link-proj"+currProj).href;
     window.open(url, '_blank')
   }
+  else if (e.keyCode == '39'){
+    e.preventDefault();
+    url = document.getElementById("link-proj"+currProj).href;
+    window.open(url, '_blank')
+  }
   else{
     //do nothing
   }
