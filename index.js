@@ -5,29 +5,25 @@ function togglePreviewOn(x) {
   var id = x.id;
   document.getElementById("p-default").style.display="none";
 
-  document.getElementById("p-"+id).style.webkitAnimation="swing 1s ease";
-  document.getElementById("p-"+id).style.animation="swing 1s ease";
+  document.getElementById("p-"+id).style.animation="swing .2s ease";
   document.getElementById("p-"+id).style.display="block";
 }
 
 function togglePreviewOnKey(id) {
   document.getElementById("p-default").style.display="none";
   document.getElementById("p-"+id).style.display="block";
-  document.getElementById("p-"+id).style.webkitAnimation="swing 1s ease";
-  document.getElementById("p-"+id).style.animation="swing 1s ease";
+  document.getElementById("p-"+id).style.animation="swing .2s ease";
 }
 
 function togglePreviewOff(x) {
   var id = x.id;
   document.getElementById("p-"+id).style.display="none";
   document.getElementById("p-default").style.display="block";
-  document.getElementById("p-"+id).style.webkitAnimation="none";
   document.getElementById("p-"+id).style.animation="none";
 }
 
 function togglePreviewOffKey(id) {
   document.getElementById("p-"+id).style.display="none";
-  document.getElementById("p-"+id).style.webkitAnimation="none";
   document.getElementById("p-"+id).style.animation="none";
 }
 
