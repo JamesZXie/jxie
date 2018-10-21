@@ -10,13 +10,32 @@
   </header>
   <body>
     <script src="./index.js"></script>
+    <div class="hidden">
+      <script type="text/javascript">
+          var images = new Array()
+          function preload() {
+            for (i = 0; i < preload.arguments.length; i++) {
+              images[i] = new Image()
+              images[i].src = preload.arguments[i]
+              console.log("preloaded"+preload.arguments[i])
+            }
+          }
+          preload(
+            "./assets/previews/preview_proj1-01.png",
+            "./assets/previews/preview_proj2-01.png",
+            "./assets/previews/preview_proj3-01.png",
+            "./assets/previews/preview_proj4-01.png",
+            "./assets/previews/preview_proj5-01.png"
+          )
+      </script>
+    </div>
 
     <div class="container1">
       <div class="header1">james xie</div>
       <div class="subtext1">
         Designer | Developer | Dancer
       </div>
-  <a target="_blank" href="https://medium.com/@jamesxie_93826/the-business-of-good-design-18d10e141e08" class="recent-link">
+    <a target="_blank" href="https://medium.com/@jamesxie_93826/the-business-of-good-design-18d10e141e08" class="recent-link">
       <div class="recent">
         Latest case study: "The Business of Good Design"
       </div>
@@ -67,6 +86,9 @@
         <img src="assets/previews/preview_proj4-01.png" class="preview-proj" id="p-proj4" />
         <img src="assets/previews/preview_proj5-01.png" class="preview-proj" id="p-proj5" />
       </div>
+
+      <div class="hidden">
+    </div>
     </div>
 
     <div class="container3">
