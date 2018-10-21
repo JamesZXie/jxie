@@ -78,7 +78,12 @@ function checkKey(e) {
         onProjUpdate(currProj, oldProj);
       }
   }
+  else if (e.keyCode == '13'){
+    e.preventDefault();
+    url = document.getElementById("link-proj"+currProj).href;
+    window.open(url, '_blank')
+  }
   else{
-    // do nothing
+    //do nothing
   }
 }
