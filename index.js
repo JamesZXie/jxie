@@ -31,8 +31,7 @@ function onProjUpdate(currProj, oldProj) {
   projID = "proj" + currProj;
   oldProjID = "proj" + oldProj;
 
-  document.getElementById(projID).style.backgroundColor = "black";
-  document.getElementById(projID).style.color = "white";
+  document.getElementById(projID).style.border = "2px dashed black";
 
   togglePreviewOnKey(projID);
   if (oldProj === 0) {
@@ -40,8 +39,7 @@ function onProjUpdate(currProj, oldProj) {
   }
   else {
     togglePreviewOffKey(oldProjID);
-    document.getElementById(oldProjID).style.backgroundColor="white";
-    document.getElementById(oldProjID).style.color="black";
+    document.getElementById(oldProjID).style.border="2px solid white"
   }
   
   // document.getElementById("p-default").style.display="none";

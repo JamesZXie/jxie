@@ -85,6 +85,7 @@ body {
         }
         .project{
           display: flex;
+          border: 2px solid white;
         }
             .project:hover{
               background-color: black;
@@ -151,7 +152,7 @@ body {
       display: inline-block;
       width: 55%;
       height: 600px;
-      margin-top: -3vh;
+      margin-top: -3vh;      
     }
         .preview-default{
           display: block;
@@ -171,12 +172,11 @@ body {
           height: 700px;
           padding-left: 10px;
         }
-        #p-proj1{
-          /* display: block;
-          animation: swing .2s ease; */
-        }
         #p-proj5{
-          margin-top: -10vh;
+          margin-top: -5vh;
+        }
+        #p-proj1{
+          margin-top: -70px;
         }
 
 .container3{
@@ -238,6 +238,9 @@ body {
     }
     #p-proj5{
       margin-top: -5vh;
+    }
+    #p-proj1{
+      margin-top: -10px;
     }
 }
 
