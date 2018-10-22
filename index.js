@@ -63,6 +63,11 @@ function checkKey(e) {
         currProj = currProj - 1;
         onProjUpdate(currProj, oldProj);
       }
+      else {
+        currProj = 5;
+        oldProj = 1;
+        onProjUpdate(currProj, oldProj);
+      }
   }
   else if (e.keyCode == '40') {
     //down
@@ -70,6 +75,11 @@ function checkKey(e) {
       if (currProj < 5){
         oldProj = currProj;
         currProj = currProj + 1;
+        onProjUpdate(currProj, oldProj);
+      }
+      else{
+        currProj = 1;
+        oldProj = 5;
         onProjUpdate(currProj, oldProj);
       }
   }
